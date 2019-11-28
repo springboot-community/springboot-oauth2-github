@@ -1,0 +1,31 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: "springboot-oauth2-github"
+
+  http:
+    encoding:
+      charset: utf-8
+      enabled: true
+
+  freemarker:
+    enabled: true
+    content-type: text/html
+    charset: utf-8
+    suffix: .ftl
+    request-context-attribute: request
+    expose-spring-macro-helpers: true
+    expose-request-attributes: false
+    expose-session-attributes: false
+    allow-request-override: false
+    allow-session-override: false
+    check-template-location: true
+    template-loader-path:
+      - classpath:/templates/
+
+oauth:
+  github:
+    app-id: ff52a5d0642bc35d25f7 
+    app-secret: 9a1db9b66e0d80c46a1391d7b0887612f22b889c
