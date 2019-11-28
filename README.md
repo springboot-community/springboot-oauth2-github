@@ -1,6 +1,6 @@
 ## springboot-oauth2-github
 ### 配置
-> 修改 `application.yml` 中的 app-id以及 `app-secret` 
+> 修改 `application.yml` 中的 `app-id` 以及 `app-secret` 
 
 ```yml
 oauth:
